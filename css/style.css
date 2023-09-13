@@ -1,0 +1,190 @@
+/* --- FONTS --- */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+p,
+span,
+a,
+li,
+input,
+textarea,
+label,
+select,
+option,
+button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+h1 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 155.2%; /* 77.6px */
+}
+
+h2 {
+    color: #fff;
+    font-family: "Rubik";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 187.5%; /* 58.125px */
+}
+
+/* --- LAYOUT --- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.box-25 {
+    width: 25%;
+    padding: 0 10px;
+}
+.box-50 {
+    width: 50%;
+    padding: 0 10px;
+}
+.box-75 {
+    width: 75%;
+    padding: 0 10px;
+}
+.box-100 {
+    width: 100%;
+    padding: 0 10px;
+}
+
+/* --- CUSTOM CODE --- */
+
+/* ---- COMPONENTS ----  */
+header {
+    padding: 40px;
+    max-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body {
+    background: linear-gradient(45deg, #070320 18.81%, #3b2a9f 199.4%);
+}
+footer {
+    background-color: #fff;
+}
+
+footer a,
+footer p {
+    color: #000;
+}
+
+.gp-top-footer {
+}
+
+#gp-logo a {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 153.5%; /* 36.84px */
+    text-decoration: none;
+}
+
+/* ---- NAVIGATION ---- */
+.gp-nav-link {
+    color: #fff;
+    display: block;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gp-nav-link:hover {
+    color: #d80027;
+}
+
+.gp-contact-nav {
+    border-radius: 6px;
+    background-color: #d80027;
+    color: #fff;
+}
+
+.gp-contact-nav:hover {
+    color: #fff;
+    background-color: #ff1943;
+    transform: scale(1.03);
+    transition: transform 200ms ease-in-out;
+}
+
+/* ---- BUTTONS ---- */
+.gp-orange-call {
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(92deg, #d80027 2.08%, #fb9e3c 117.25%);
+    padding: 15px 30px;
+}
+
+.gp-orange-call a {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.gp-orange-call:hover {
+    background: linear-gradient(-90deg, #d80027 2.08%, #fb9e3c 117.25%);
+}
+
+.gp-dark-button {
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.11);
+    padding: 10px 30px;
+}
+
+.gp-dark-button a {
+    color: #fff;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 187.5%; /* 37.5px */
+    text-decoration: none;
+}
+
+/* ---- OTHERS ELEMENTS ---- */
+.category {
+    color: #e87d0e;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 155.2%; /* 31.04px */
+    margin-bottom: 18px;
+}
